@@ -1,0 +1,83 @@
+.banner-container {
+    position: relative;
+    height: 500px;
+}
+
+.banner-content {
+    position: absolute;
+    inset: 50% auto auto 0;
+    width: 100%;
+    max-width: 525px;
+    margin: auto;
+    z-index: 1;
+    background: white;
+    transform: translateY(-50%);
+    padding: 40px 40px 40px 0px;
+}
+
+.banner-img {
+    position: absolute;
+    right: 0;
+    width: 75%;
+    height: 100%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-sug {
+    position: relative;
+    padding-left: 24px;
+    font-size: 18px;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+.banner-sug:before {
+    content: "";
+    width: 9px;
+    height: 100%;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 0;
+}
+
+.banner-sug:before {
+    content: "";
+    width: 9px;
+    height: 100%;
+    background-color: var(--yellow-color);
+    position: absolute;
+    left: 0;
+}
+
+.banner-sug {
+    position: relative;
+    padding-left: 24px;
+    font-size: 18px;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+.banner-title {
+    font-size: 4.5rem;
+    line-height: 1.2;
+}
+
+h1.banner-title span {
+    color: var(--yellow-color);
+    font-weight: 700;
+}
+
+.banner-btn {
+    border-radius: 0;
+    padding: 14px 24px;
+    text-transform: uppercase;
+}
+
+.banner .swiper-pagination.swiper-pagination-fraction.swiper-pagination-horizontal {
+    text-align: left;
+}

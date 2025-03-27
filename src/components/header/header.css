@@ -1,0 +1,56 @@
+:root {
+    --yellow-color: #FFC017;
+    --black-color: #000000;
+    --gray-color: #f5f5f5;
+}
+
+.yellow-bg {
+    background-color: var(--yellow-color);
+    color: #FFFFFF;
+}
+
+.black-bg {
+    background-color: var(--black-color);
+    color: #FFFFFF;
+}
+
+.gray-bg {
+    background-color: var(--gray-color);
+    color: #446872;
+}
+
+.dropdown-toggle::after {
+    vertical-align: 0.155em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+nav {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo {
+    width: 150px;
+}
+
+nav .dropdown-toggle {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-main-btn {
+    padding: 15px 33px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 0;
+    font-weight: 500;
+}

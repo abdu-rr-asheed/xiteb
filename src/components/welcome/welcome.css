@@ -1,0 +1,83 @@
+.welcome-image-container {
+    position: relative;
+    height: 480px;
+}
+
+.welcome-image-container .first-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 233px;
+    height: 310px;
+    object-fit: cover;
+}
+
+.welcome-image-container .second-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+section.welcome-section {
+    padding-block: 5rem;
+}
+
+.welcome-client-records {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #ff7c46;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.welcome-client-records .client-number {
+    font-size: 2.6rem;
+}
+
+.welcome-client-records:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 20px;
+    height: 26px;
+    border-left: 21px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 23px solid #ff7c46;
+}
+
+.welcome-client-records .client-title {
+    font-size: 1.3rem;
+}
+
+.welcome-details-container {
+    padding: 48px;
+}
+
+h1.welcome-title {
+    font-size: 3rem;
+}
+
+h1.welcome-title span {
+    color: #ff7c46;
+}
+
+.welcome-details-container p:nth-of-type(1) {
+    font-weight: 500;
+}
+
+.welcome-btn {
+    border-radius: 0;
+    padding: 15px 34px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
