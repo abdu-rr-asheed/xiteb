@@ -22,17 +22,17 @@ function Header() {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Something else here
                   </a>
                 </li>
@@ -49,17 +49,17 @@ function Header() {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Something else here
                   </a>
                 </li>
@@ -76,17 +76,17 @@ function Header() {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Something else here
                   </a>
                 </li>
@@ -103,27 +103,27 @@ function Header() {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Something else here
                   </a>
                 </li>
               </ul>
             </div>
           </nav>
-          <a href="#" class="btn header-main-btn yellow-bg">
+          <a href="/" class="btn header-main-btn yellow-bg">
             Get a Quote
           </a>
-          <a href="#" class="btn header-main-btn black-bg">
+          <a href="/" class="btn header-main-btn black-bg">
             Sign In
           </a>
         </div>

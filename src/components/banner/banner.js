@@ -50,7 +50,7 @@ function Banner() {
                     <span>{slide.title.split(" ")[1]}</span>
                   </h1>
                   <p className="banner-description">{slide.description}</p>
-                  <a href="#" className="btn banner-btn yellow-bg">
+                  <a href="/" className="btn banner-btn yellow-bg">
                     Discover Move
                   </a>
                 </div>

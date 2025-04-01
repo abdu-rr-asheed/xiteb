@@ -66,7 +66,7 @@ function Service() {
                   <div className="service-content">
                     <h3 className="service-title">{slide.title}</h3>
                     <p>{slide.description}</p>
-                    <a href="#" className="btn service-btn">
+                    <a href="/" className="btn service-btn">
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/318/318476.png"
                         alt="icon"

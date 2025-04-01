@@ -42,7 +42,7 @@ function Welcome() {
                 products proceeds consistently and supply chains stay lean and
                 streamlined for progress.
               </p>
-              <a href="#" className="btn welcome-btn gray-bg">
+              <a href="/" className="btn welcome-btn gray-bg">
                 Discover Move
               </a>
             </div>
